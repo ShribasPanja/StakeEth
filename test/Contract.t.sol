@@ -5,6 +5,7 @@ import "forge-std/Test.sol";
 
 import "src/Contract.sol";
 
+
 contract TestContract is Test {
     Contract c;
 
@@ -21,3 +22,4 @@ contract TestContract is Test {
         assertEq(x + x, x * 2);
     }
 }
+
