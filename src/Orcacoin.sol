@@ -7,4 +7,5 @@ contract Orcacoin is ERC20{
     function mint(address _to, uint256 _amt) public{
         _mint(_to,_amt);
     }
+    
 }
